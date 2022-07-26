@@ -16,6 +16,7 @@ jobs:
         #bn/ script: sudo sh /opt/git/tera-learn/remote-host/tera-learn/gitcommitscriptexecute.sh   
         script: |
          sudo cd /opt/start-stop/ 
+         sudo ls -la
          sudo /usr/local/bin/terraform plan
          sudo /usr/local/bin/terraform apply -auto-approve
 #testin

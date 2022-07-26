@@ -18,6 +18,5 @@ jobs:
          sudo cd /opt/start-stop/ 
          sudo ls -la
          sudo pwd
-         sudo /usr/local/bin/terraform plan
-         sudo /usr/local/bin/terraform apply -auto-approve
+         sudo sh /home/ratnam/runterra.sh
 #testin

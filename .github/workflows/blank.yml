@@ -17,6 +17,7 @@ jobs:
         script: |
          sudo cd /opt/start-stop/ 
          sudo ls -la
+         sudo pwa
          sudo /usr/local/bin/terraform plan
          sudo /usr/local/bin/terraform apply -auto-approve
 #testin

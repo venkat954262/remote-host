@@ -13,5 +13,6 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         #key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: ${{ secrets.SSH_PORT }}
-        script: sudo sh /opt/git/tera-learn/remote-host/tera-learn/gitcommitscriptexecute.sh   
+        #bn/ script: sudo sh /opt/git/tera-learn/remote-host/tera-learn/gitcommitscriptexecute.sh   
+        script: sudo cd /opt/start-stop/ && sudo /usr/local/bin/terraform apply
 #testing

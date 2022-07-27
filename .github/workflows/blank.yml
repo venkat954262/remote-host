@@ -1,7 +1,6 @@
-name: main
-on:
-  workflow_dispatch:
-
+#name: main
+name: remote ssh command
+on: [push]
 jobs:
   build:
     name: build
